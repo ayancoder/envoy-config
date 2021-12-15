@@ -5,6 +5,7 @@
 ### ./rest_server2.sh 
 ### ./rest_server3.sh 
 ### ./rest_server4.sh
-### 2. run http proxy. envoy --config-path html.yaml curl http://localhost:40000
+### 2. run http proxy. envoy --config-path html.yaml 
+### 3.curl http://localhost:40000
 ### output-> Hello, World! port 50003 
 ### http server are running in 50001/50002/50003/50004 and envoy is running in 40000. and proxing it to
